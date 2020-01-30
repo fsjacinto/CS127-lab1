@@ -1,0 +1,162 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.title{
+    margin: 0px 30px;
+}
+
+.content{
+    margin: 0px 50px;
+}
+
+.space{
+    margin: 0px 30px;
+}
+
+
+.head{
+    position: relative;
+    z-index: 1;     
+    margin: 0px;
+}
+
+.headp{
+    position: absolute;
+    z-index: 1;
+    margin: 10px 30px;
+}
+
+.pp{
+    position: relative;
+    z-index: 1;
+    margin: 10px 30px;  
+}
+
+.sec1{
+    position: absolute;
+    z-index: 1;
+    margin: 150px 10px 0px 10px ;
+}
+
+.sec2{
+    position: absolute;
+    z-index: 1;
+    margin: 1400px 10px 0px 10px ;
+}
+
+.sec3{
+    position: absolute;
+    z-index: 1;
+    margin: 2050px 10px 0px 10px ;
+}
+
+p{
+    font-family: "Montserrat";
+    color: white;
+    margin: -1px;
+}
+
+span{
+    font-family: "Montserrat Thin";
+    color: white;
+}
+
+h1{
+    font-family: "Montserrat SemiBold";
+    color: white;
+    margin: 10px 10px;
+    font-size: 50px;
+}
+
+h3{
+    font-family: "Montserrat SemiBold";
+    color: white;
+}
+
+.forms {
+    padding: 30px;
+}
+
+.button li{
+    vertical-align: auto;
+    margin: 40px 50px;
+}
+
+.button input{
+    color: white;
+    font-family: "Montserrat SemiBold";
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: 25px;
+    cursor: pointer;
+
+
+    background-color: rgba(255, 255, 255, 0.062); 
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: all .2s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    margin-top: 2500px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    
+}
+
+.button input:hover { transform: scale(1.1); }
+
+.button a{
+    color: white;
+    font-family: "Montserrat SemiBold";
+    letter-spacing: 1px;
+    font-size: 25px;
+    cursor: pointer;
+
+
+    background-color: rgba(255, 255, 255, 0.062); 
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: all .2s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    margin-top: 2500px;
+    margin-left: 600px;
+}
+
+.button a:hover { transform: scale(1.1); }
+
+.banner{
+    width: 150%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    
+    
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}

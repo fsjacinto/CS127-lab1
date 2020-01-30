@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PDS Form</title>
+		<link rel="stylesheet" href="style2.css">
+	</head>
+<body>
+	<div class="forms">
+		<div class="head">
+			<p>CS Form No. 212</p>
+			<p>Revised 2017</p>
+			<h1>Personal Data Sheet</h1>
+		</div>
+		<div class="headp">
+			<p><b>WARNING:</b></p>
+			<div class="pp">
+				<p>Any misinterpretation made in the Personal Data Sheet and the Work Experience Sheet shall cause the filing of administrative/criminal case/s against the person concerned. </p>
+				<p><b>READ THE ATTACHED GUIDE TO FILLING OUT THE PERSONAL DATA SHEET (PDS) BEFORE ACCOMPLISHING THE PDS FORM.</b></p>
+				<p>Print legibly. Tick appropriate boxes ( ) and use separate sheet if necessary. Indicate N/A if not applicable. DO NOT ABBRIVIATE</p>
+			</div>
+		</div>
+		<form action="lab1.php" method="post">
+			<div class="sec1">
+				<div class ="content">
+					<span>1. CS ID No.</span>
+					<input type="text" name="csid" placeholder="(Do not fill up. For CSC use only)">
+				</div>
+				<div class ="title">
+					<h3>I. PERSONAL INFORMATION</h3>
+				</div>
+				<div class ="content">
+					<span>2. SURNAME:</span>
+					<input type="text" required name="lastn">
+					<br><br>
+					<div class ="space">
+						<span>FIRST NAME:</span>
+						<input type="text" required name="firstn">
+						<span>NAME EXTENSION:</span>
+						<input type="text" name="extname">
+						<br><br>
+						<span>MIDDLE:</span>
+						<input type="text" name="middlen">
+						<br><br>
+					</div>
+					<span>3. DATE OF BIRTH (mm/dd/yy):</span>
+					<input type="date" required name="birthdate">
+					<br><br>
+					<span>4. PLACE OF BIRTH:</span>
+					<input type="text" name="birthplace">
+					<br><br>
+					<span>5. SEX:</span>
+					<input type="text" required name="sex">
+					<br><br>
+					<span>6. CIVIL STATUS:</span>
+					<input type="text" name="civilstatus">
+					<br><br>
+					<span>7. HEIGHT(m):</span>
+					<input type="text" name="height">
+					<br><br>
+					<span>8. WEIGHT(kg):</span>
+					<input type="text" name="weight">
+					<br><br>
+					<span>9. BLOOD TYPE:</span>
+					<input type="text" name="bloodtype">
+					<br><br>
+					<span>10. GSIS ID NO.:</span>
+					<input type="text" name="gsis">
+					<br><br>
+					<span>11. PAG-IBIG ID NO.:</span>
+					<input type="text" name="pagibig">
+					<br><br>
+					<span>12. PHILHEALTH NO.:</span>
+					<input type="text" name="philhealth">
+					<br><br>
+					<span>13. SSS NO.:</span>
+					<input type="text" name="sss">
+					<br><br>
+					<span>14. TIN NO.:</span>
+					<input type="text" name="tin">
+					<br><br>
+					<span>15. AGENCY EMPLOYEE NO.:</span>
+					<input type="text" name="agencyno">
+					<br><br>
+					<span>16. CITIZENSHIP:<input type="text" name="citizenship">
+					<br>if holder of dual citizenship, please indicate details.</span>
+					<br><br>
+					<span>17. RESIDENTIAL ADDRESS:</span>
+					<br><br>
+					<div class="space">
+						<input type="text" name="rhousenum" placeholder="House/Block/Lot No.">
+						<input type="text" name="rstreet" placeholder="Street">
+						<br><br>
+						<input type="text" name="rsubdi" placeholder="Subdivision/Village">
+						<input type="text" name="rbrgy" placeholder="Barangay">
+						<br><br>	
+						<input type="text" name="rcity" placeholder="City/Municipality">
+						<input type="text" name="rprov" placeholder="Province">
+						<br><br>
+						<span>ZIP CODE:</span>
+						<input type="text" name="rzip">
+						<br><br>
+					</div>
+					<span>18. PERMANENT ADDRESS:</span>
+					<br><br>
+					<div class="space">
+						<input type="text" name="phousenum" placeholder="House/Block/Lot No.">
+						<input type="text" name="pstreet" placeholder="Street">
+						<br><br>
+						<input type="text" name="psubdi" placeholder="Subdivision/Village">
+						<input type="text" name="pbrgy" placeholder="Barangay">
+						<br><br>	
+						<input type="text" name="pcity" placeholder="City/Municipality">
+						<input type="text" name="pprov" placeholder="Province">
+						<br><br>
+						<span>ZIP CODE</span>
+						<input type="text" name="pzip">
+						<br><br>
+					</div>
+					<span>19. TELEPHONE NUMBER:</span>
+					<input type="text" name="telnum">
+					<br><br>
+					<span>20. MOBILE NUMBER:</span>
+					<input type="text" name="mobnum">
+					<br><br>
+					<span>21. EMAIL ADDRESS (if any):</span>
+					<input type="email" name="email">
+					<br><br>
+				</div>
+			</div>
+
+				<div class="sec2">
+					<div class="title">
+						<h3>II. FAMILY BACKGROUND</h3>
+					</div>
+					<div class="content">	
+						<span>22. SPOUSE'S SURNAME</span>
+						<input type="text" name="slast">
+						<br><br>
+						<div class="space">
+							<span>FIRST NAME</span>
+							<input type="text" name="sfirst">
+							<span>NAME EXTENSION(JR, SR)</span>
+							<input type="text" name="sextname">
+							<br><br>
+							<span>MIDDLE NAME</span>
+							<input type="text" name="smiddle">
+							<br><br>
+						</div>
+						<span>23. NAME OF CHILDREN (Write full name and list all)</span>
+						<span>DATE OF BIRTH (mm/dd/yyyy)</span><br><br>
+						<div class="space">
+							<input type="text" name="child1">
+							<input type="date" name="cbirth1">
+							<br><br>
+							<input type="text" name="child2">
+							<input type="date" name="cbirth2">
+							<br><br>
+							<input type="text" name="child3">
+							<input type="date" name="cbirth3">
+							<br><br>
+							<input type="text" name="child4">
+							<input type="date" name="cbirth4">
+							<br><br>
+							<input type="text" name="child5">
+							<input type="date" name="cbirth5">
+							<br><br>
+						</div>
+						<span>24. FATHER'S SURNAME</span>
+						<input type="text" required name="flast">
+						<br><br>
+						<div class="space">
+							<span>FIRST NAME</span>
+							<input type="text" required name="ffirst">
+							<span>NAME EXTENSION(JR, SR)</span>
+							<input type="text" name="fextname">
+							<br><br>
+							<span>MIDDLE NAME</span>
+							<input type="text" name="fmiddle">
+							<br><br>
+						</div>
+						<span>25. MOTHER'S SURNAME</span>
+						<input type="text" required name="mlast">
+						<br><br>
+							<div class="space">
+							<span>FIRST NAME</span>
+							<input type="text" required name="mfirst">
+							<br><br>
+							<span>MIDDLE NAME</span>
+							<input type="text" name="mmiddle">
+							<br><br>
+						</div>
+					</div>
+				</div>
+
+				<div class="sec3">
+					<div class="title">
+						<h3>III. EDUCATIONAL BACKGROUND</h3>
+					</div>
+					<div class="content">
+						<span>26. LEVEL</span>
+						<span>(Write in full)</span>
+						<span>EDUCATION/DEGREE/COURSE (Write in full)</span>
+						<span>PERIOD OF ATTENDANCE FROM</span>
+						<span>TO</span>
+						<span>HIGHEST LEVEL/UNITS EARNED (if not graduated)</span>
+						<span>YEAR GRADUATED</span>
+						<span>SCHOLARSHIP/ACADEMIC HONORS RECEIVED</span>
+						<br><br>
+						<span>ELEMENTARY</span><br>
+						<input type="text" name="elem">
+						<input type="text" name="edegree">
+						<input type="text" name="efrom">
+						<input type="text" name="eto">
+						<input type="text" name="elevel">
+						<input type="text" name="ehonors">
+						<br><br>
+						<span>SECONDARY</span><br>
+						<input type="text" name="secondary">
+						<input type="text" name="sdegree">
+						<input type="text" name="sfrom">
+						<input type="text" name="sto">
+						<input type="text" name="slevel">
+						<input type="text" name="shonors">
+						<br><br>
+						<span>VOCATIONAL / TRADE COURSE</span><br>
+						<input type="text" name="trade">
+						<input type="text" name="tdegree">
+						<input type="text" name="tfrom">
+						<input type="text" name="tto">
+						<input type="text" name="tlevel">
+						<input type="text" name="thonors">
+						<br><br>
+						<span>COLLEGE</span><br>
+						<input type="text" name="college">
+						<input type="text" name="cdegree">
+						<input type="text" name="cfrom">
+						<input type="text" name="cto">
+						<input type="text" name="clevel">
+						<input type="text" name="chonors">
+						<br><br>
+						<span>GRADUATE STUDIES</span><br>
+						<input type="text" name="graduate">
+						<input type="text" name="gdegree">
+						<input type="text" name="gfrom">
+						<input type="text" name="gto">
+						<input type="text" name="glevel">
+						<input type="text" name="ghonors">
+						<br><br>
+						<span>SIGNATURE</span>
+						<input type="text" name="appsignature">
+						<span>DATE</span>
+						<input type="date" name="appdate">
+					</div>
+				</div>
+
+			<div class="button">
+				<input type="submit" value="Submit">
+			</div>
+			<div class="button">
+				<a href="Home.html">Cancel</a>
+			</div>
+		</form>
+	</div>
+	<div class="banner">
+		<video autoplay muted loop id="bg">
+			<source src="videos/bg.mp4" type="video/mp4">
+			<script>
+				document.getElementById("bg").play();
+			</script>
+		</video>
+	</div>
+
+</body>
+</html>
